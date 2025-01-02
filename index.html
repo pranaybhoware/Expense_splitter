@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Splitter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Splitter</h1>
+    <div class="input-container">
+      <h3>Add Expense</h3>
+      <input type="text" id="payer" placeholder="Payer Name" />
+      <input type="number" id="amount" placeholder="Amount Paid" />
+      <button id="addExpenseBtn">Add Expense</button>
+    </div>
+
+    <div class="output-container">
+      <h3>Debt Summary</h3>
+      <div id="debt-summary">
+        <!-- Debt summary will be displayed here -->
+      </div>
+    </div>
+
+    <button id="calculateBtn">Calculate Optimal Payment</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
